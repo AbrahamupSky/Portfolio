@@ -12,8 +12,17 @@
   <div class="col-md-8 my-auto">
     <h1>I am <strong>Abraham Urrutia</strong></h1>
     <h3>I am a Web Developer</h3>
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et numquam voluptate temporibus dolorem voluptates, similique recusandae architecto consequatur in culpa quam nobis quasi porro impedit iure cum laborum tempore dolores deleniti nemo. Voluptate ut, laboriosam eaque illum accusantium officia iste, architecto, nihil est atque voluptatum aperiam dignissimos recusandae? Sint voluptatem aliquid accusantium quos soluta, nam autem natus reprehenderit. Deserunt quo aperiam sint quasi suscipit aliquam error dolores dicta tempore sequi necessitatibus, consequuntur neque tenetur, veritatis doloribus, architecto a quaerat adipisci ducimus. Iure veniam odio facere officia fugit, doloremque voluptatibus distinctio soluta aspernatur, aut voluptate quod ea omnis illo, iusto nihil!</p>
-    
+    <p>Hi, I'm Abraham | 21 years old | JavaScript Frontend & Backend Developer Trainee from México</p>
+
+    <ul>
+      <li>I'm currently working on my own projects.</li>
+      <li>I use React & NodeJS as frameworks from web development.</li>
+      <li>I'm currently learning web development.</li>
+      <li>I speak Spanish (native) and English (B2)</li>
+      <li>I'm currently studying Software Engineering at UdeG in 7th grade.</li>
+      <li>I work on MacOS, Windows & Linux as OS</li>
+    </ul>
+      
     <a href="{% static 'portfolio/cv.pdf' %}" target="_blank" class="btn btn-primary btn-lg rounded-1 my-3">Download CV</a>
   </div>
 </header>
@@ -32,7 +41,7 @@
         <p>{{project.description}}</p>
 
         {% if project.url %}
-        <a href="{{project.url}}" class="btn btn-light rounded-1 btn-sm" target="_blank">{{project.url}}</a>
+        <a href="{{project.url}}" class="btn btn-light rounded-1 btn-sm container-fluid" target="_blank">{{project.url}}</a>
 
         {% endif %}
       </div>
